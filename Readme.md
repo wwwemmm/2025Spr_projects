@@ -25,6 +25,7 @@ Each **region**:
 - Must be **180° rotationally symmetric** around a center point within the region
 
 **Example: Initial Grid Setup (5×5, Labels = "ABCDEF")**
+
 ![Initial Setup Example](initial_setup_example.png)
 ---
 
@@ -44,6 +45,7 @@ This means:
 - There are **2 centers** located in or touching this square
 
 **Example: Clue Query Result for a 2×2 Square**
+
 ![Clue Example Query](clue_example_query.png)
 
 ---
@@ -56,6 +58,7 @@ by assigning a correct label to **every cell**,
 ensuring all regions follow the rules of **uniqueness, connectivity, and symmetry**.
 
 **Example: Final Puzzle Solution with Labeled Regions and Centers**
+
 ![Puzzle Solution Example](puzzle_solution_example.png)
 
 ## Algorithm and Time Complexity for Solver
